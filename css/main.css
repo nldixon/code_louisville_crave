@@ -1,0 +1,56 @@
+/* Media Queries */ 
+
+    /* Small */
+
+    /* Medium */
+
+    /* Large */
+
+/* General Layout */
+
+html {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    background: rgba(170, 25, 25, .8);
+    color: white;
+}
+
+header, footer, h1, h2 {
+    background-color: rgba(170, 25, 25, .9);
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, .3);
+    padding: 2%;
+    margin: 2% 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.social-icon {
+    display: inline;
+}
+
+.social-icon img {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 50px;
+    height: auto;
+}
+
+#map {
+    margin: auto;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: rgba(170, 25, 25, .9);
+    border-bottom: 4px solid black;
+    padding: 1%;
+    margin: 0;
+    text-align: left;
+    max-width: 100%;
+}
