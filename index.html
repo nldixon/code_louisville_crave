@@ -9,47 +9,74 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        
         <link rel="stylesheet" href="css/main.css">
 
         <title>Crave Caf&eacute & Catering</title>
         </head>
         
 <body>
-        <nav>
-                <p>Collapsing Navbar</p>
-        </nav>
-                <div id="about">
-                        <p>This will be information about the restaurant. Photo carousel?</p>
+        <nav class="navbar navbar-default navbar-static-top">
+                <div class="container-fluid">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapsed" aria-expanded="false">
+                                        <span class="sr-only">Toggle Navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                
+                        <div class="collapse navbar-collapse" id="nav-collapsed">
+                                <ul class="nav navbar-nav">
+                                        <li><a href="index.html#home">Home</a></li>
+                                        <li><a href="index.html#menu">Menu</a></li>
+                                        <li><a href="index.html#catering">Catering</a></li>
+                                        <li><a href="index.html#derby">Derby Specials</a></li>
+                                        <li><a href="index.html#contact">Contact</a></li>
+                                </ul>
+                        </div>
+                        </div>
                 </div>
-                <div id="menu">
-                        <p>Menu will go here. Possibly include link to the PDF menu.</p>
+        </nav>                
+                
+        </div>
+                <div id="home">
+                        <p>This will be information about the restaurant. Flickr API integration photo carousel?</p>
                 </div>
+                
+                <div id="menu" class="row">
+                        <div class="col-md-4">
+                                <p>Appetizers and Soups</p>
+                        </div>
+                        <div class="col-md-4">
+                                <p>Sandwiches</p>
+                        </div>
+                        <div class="col-md-4">
+                                <p>Salads</p>
+                        </div>
+                        
+                </div>                        
+                
                 <div id="catering">
-                        <p>Catering information here. Mailgun API integration.</p>
+                        <p>Catering information here.</p>
                 </div>
                 <div id="derby">
                         <p>Information on Derby box lunches and catering here.</p>
                 </div>
                 
-                <div id="map">
-                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMxnJOEdzaYgRwW9yqVziK48&key=AIzaSyA9flFxCs0ZknrPpJEvQGWu67kD9hstWy0" allowfullscreen></iframe>               
-                </div>
-                
-        <footer>
-            <br>2250 Frankfort Ave. <br>Louisville, KY 40206
-            <br>Phone: <a href="tel:1-502-896-1488">502-896-1488</a> | Fax: 502-896-1489 | email <a href="email:cravecafe@bellsouth.net">Shannon</a>
-            <br>
-                <div class="social-icon">
-                    <a href="https://www.facebook.com/cravecafecatering" target="_blank"><img src="img/facebook_circle.png" alt="Facebook Logo" class="social-icon"></a>
-                    <a href="https://www.instagram.com/cravecafe" target="_blank"><img src="img/instagram_circle.png" alt="Instagram Logo" class"social-icon"></a>
-                    <a href="https://twitter.com/" target="_blank"><img src="img/twitter_circle.png" alt="Twitter Logo" class"social-icon"></a>
-                    <a href="https://plus.google.com/" target="_blank"><img src="img/google_circle.png" alt="Google Plus Logo" class"social-icon"></a>
-                </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-            <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+        <footer id="contact">
+                <br><a href="https://goo.gl/maps/KJrQiHcoq6E2">2250 Frankfort Ave.</a>
+                <br>Louisville, KY 40206
+                <br>Phone: <a href="tel:1-502-896-1488">502-896-1488</a> | Fax: 502-896-1489 | email <a href="email:cravecafe@bellsouth.net">Shannon</a>
+                <br>
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/cravecafecatering" target="_blank"><img src="img/facebook_circle.png" alt="Facebook Logo" class="social-icon"></a>
+                            <a href="https://www.instagram.com/cravecafe" target="_blank"><img src="img/instagram_circle.png" alt="Instagram Logo" class"social-icon"></a>
+                            <a href="https://twitter.com/" target="_blank"><img src="img/twitter_circle.png" alt="Twitter Logo" class"social-icon"></a>
+                            <a href="https://plus.google.com/" target="_blank"><img src="img/google_circle.png" alt="Google Plus Logo" class"social-icon"></a>
+                        </div>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>        
