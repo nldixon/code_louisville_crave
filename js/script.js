@@ -20,9 +20,9 @@ $.ajax({
           var a = $('<a>').attr({href: url});
           var img = $('<img>').attr({src: url});
           a.append(img);
-          $("#sandwichGallery").append(a);
+          $(".sandwichGallery").append(a);
         });
-        $('#sandwichGallery').justifiedGallery();
+        $(".sandwichGallery").justifiedGallery();
     }
 });
 })
