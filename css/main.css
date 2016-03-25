@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: rgba(170, 25, 25, .8);
+    background: rgba(170, 25, 25, .5);
     color: white;
     width: 95%;
     margin: 2.5% 2.5%;
@@ -29,6 +29,10 @@ p {
     margin: 1% 5%;
     max-width: 90%;
     box-shadow: none;
+}
+
+.section-header {
+    background-color: rgba(100, 25, 25, .9);
 }
 
 .social-icon {
