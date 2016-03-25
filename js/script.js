@@ -22,7 +22,7 @@ $.ajax({
           a.append(img);
           $(".sandwichGallery").append(a);
         });
-        $(".sandwichGallery").justifiedGallery(3);
+        $(".sandwichGallery").justifiedGallery();
     }
 });
 })
